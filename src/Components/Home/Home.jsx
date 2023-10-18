@@ -4,11 +4,11 @@ import Banner from "../Banner/Banner";
 import OrderNow from "./OrderNow";
 import SpecialBeverage from "./SpecialBeverage";
 import About from "./About";
+import HappyPeople from "../HappyPeople/HappyPeople";
+import Register from "../Register/Register";
 
 const Home = () => {
     const [categories, setCategories] = useState([]);
-
-
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -28,6 +28,8 @@ const Home = () => {
             </div>
             <SpecialBeverage></SpecialBeverage>
             <About></About>
+            <HappyPeople></HappyPeople>
+            <Register></Register>
         </div>
     );
 };
