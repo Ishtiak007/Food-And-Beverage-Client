@@ -2,11 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navLinks = <>
-        <li className="font-bold text-orange-600 font-mono text-lg"><NavLink to='/'>Home</NavLink></li>
-        <li className="font-bold text-orange-600 font-mono text-lg"><NavLink to='/addProduct'>Add Product</NavLink></li>
-        <li className="font-bold text-orange-600 font-mono text-lg"><NavLink to='/myCart'>My Cart</NavLink></li>
-        <li className="font-bold text-orange-600 font-mono text-lg"><NavLink to='/login'>Login</NavLink></li>
-
+        <li className="font-semibold text-orange-400 text-base"><NavLink to='/'>Home</NavLink></li>
+        <li className="font-semibold text-orange-400  text-base"><NavLink to='/addProduct'>Add Product</NavLink></li>
+        <li className="font-semibold text-orange-400  text-base"><NavLink to='/myCart'>My Cart</NavLink></li>
     </>
     return (
         <div>
@@ -28,7 +26,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <button className="font-bold bg-slate-200 px-3 py-1 rounded-md text-orange-800 text-lg"><NavLink to='/login'>Login</NavLink></button>
                 </div>
             </div>
         </div>
