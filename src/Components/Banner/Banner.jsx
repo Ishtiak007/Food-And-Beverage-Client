@@ -10,8 +10,8 @@ const Banner = () => {
                     <div className="flex h-full items-center justify-center">
                         <div>
                             <div>
-                                <h1 className="text-white lg:text-5xl text-[18px] my-[30px] font-semibold font-serif">Explore food and dining with a dash of elegance on our tasteful culinary platform, serving sophistication.</h1>
-                                <Link to='/service' className="bg-gradient-to-r from-orange-400 to-orange-600 px-3 py-2 text-white font-semibold text-lg">Lets Celebrate</Link>
+                                <h1 className="text-white lg:text-4xl text-[18px] my-[30px] font-semibold font-serif">Explore food and dining with a dash of elegance <br></br> on our tasteful culinary platform, serving sophistication.</h1>
+                                <Link to='/service' className="bg-gradient-to-r from-purple-500 to-pink-500 px-3 py-2 text-white font-medium rounded-3xl text-lg">Explore Now</Link>
                             </div>
                         </div>
                     </div>
