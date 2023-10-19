@@ -14,8 +14,8 @@ const Home = () => {
             .then(res => res.json())
             .then((data) => setCategories(data))
     }, []);
-    return (
 
+    return (
         <div>
             <Banner></Banner>
             <OrderNow></OrderNow>

@@ -1,17 +1,45 @@
-import { useState } from "react";
-import { FaGithub, FaGoogle, FaRegEye, FaRegEyeSlash } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { useContext, useState } from "react";
+import { FaGoogle, FaRegEye, FaRegEyeSlash } from "react-icons/fa";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../Provider/AuthProvider";
+import toast from "react-hot-toast";
 
 const Login = () => {
-    const [showPassword, setShowPassword] = useState(false)
+    const [showPassword, setShowPassword] = useState(false);
+    const { signInUser, googleLogIn } = useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate()
+
+
     const handleLogin = e => {
-        e.preventDefalt();
+        e.preventDefault();
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        console.log(email, password);
+
+        signInUser(email, password)
+            .then((result) => {
+                toast.success('Your Login process Successfully done!');
+                console.log(result.user);
+                e.target.reset();
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch((error) => {
+                toast.error("Invalid login credentials , Provide your valid email and password")
+                console.log(error)
+            })
     }
     const handleGoogleLogIn = () => {
-
-    }
-    const handleGithubLogIn = () => {
-
+        googleLogIn()
+            .then((res) => {
+                toast.success('Google Log In successfully!');
+                console.log(res.user);
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch((error) => {
+                toast.error("Invalid login credentials")
+                console.log(error)
+            })
     }
 
     return (
@@ -46,10 +74,6 @@ const Login = () => {
                                         <button onClick={handleGoogleLogIn} className="btn w-full hover:text-blue-600 my-4">
                                             <FaGoogle className="text-lg"></FaGoogle>
                                             Login with Google
-                                        </button>
-                                        <button onClick={handleGithubLogIn} className="btn w-full hover:text-blue-600">
-                                            <FaGithub className="text-lg"></FaGithub>
-                                            Login with Github
                                         </button>
                                     </div>
                                     <div>

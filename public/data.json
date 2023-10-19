@@ -1,7 +1,7 @@
 [
     {
         "id":"1",
-        "brand_name": "Coca-Cola",
+        "brand": "Coca-Cola",
         "brand_image": "https://i.ibb.co/FKRpfYR/maximilian-bruck-4-SKd-Rc-Y13j4-unsplash.jpg",
         "type": [
             {
@@ -41,7 +41,7 @@
     },
     {
         "id":"2",
-        "brand_name": "McDonalds",
+        "brand": "McDonalds",
         "brand_image": "https://i.ibb.co/V21kt0Z/brett-jordan-zee1ge-Zy6-H0-unsplash.jpg",
         "type": [
             {
@@ -80,7 +80,7 @@
     },
     {
         "id":"3",
-        "brand_name": "Starbucks",
+        "brand": "Starbucks",
         "brand_image": "https://i.ibb.co/zmp915F/naufal-giffari-0k-Thi-Uv4-Y4s-unsplash.jpg",
         "type": [
             {
@@ -119,7 +119,7 @@
     },
     {
         "id":"4",
-        "brand_name": "PepsiCo",
+        "brand": "PepsiCo",
         "brand_image": "https://i.ibb.co/w7FvMzj/pepsi.jpg",
         "type": [
             {
@@ -159,7 +159,7 @@
     },
     {
         "id":"5",
-        "brand_name": "Nestle",
+        "brand": "Nestle",
         "brand_image": "https://i.ibb.co/1KxZ2bP/Nestle-logo-PNG6.png",
         "type": [
             {
@@ -198,7 +198,7 @@
     },
     {
         "id":"6",
-        "brand_name": "Kelloggs",
+        "brand": "Kelloggs",
         "brand_image": "https://i.ibb.co/XjPFk0N/haithem-ferdi-WSUdiy9cids-unsplash.jpg",
         "type": [
             {

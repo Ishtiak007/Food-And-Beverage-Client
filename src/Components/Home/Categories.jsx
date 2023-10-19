@@ -9,7 +9,7 @@ const Categories = ({ categories }) => {
                 <div className="card-body">
                     <h2 className="card-title">{brand_name}</h2>
                     <div className="card-actions justify-end">
-                        <Link to='/categoriesProducts'><button className="btn btn-outline text-orange-600">Learn More</button></Link>
+                        <Link to='/CategoriesProducts'> <button className="btn btn-outline text-orange-600">Learn More</button></Link>
                     </div>
                 </div>
             </div>

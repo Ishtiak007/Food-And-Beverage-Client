@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 
 const ProductDetails = () => {
@@ -24,7 +24,9 @@ const ProductDetails = () => {
                             <p className="text-base font-medium text-slate-500">Product Type : {type}</p>
                             <p className="py-6">{description}</p>
                             <div>
-                                <button className="bg-red-500 py-2 px-3 text-white font-bold rounded-2xl flex items-center gap-2">Add to cart <FaShoppingCart></FaShoppingCart></button>
+                                <Link>
+                                    <button className="bg-red-500 py-2 px-3 text-white font-bold rounded-2xl flex items-center gap-2">Add to cart <FaShoppingCart></FaShoppingCart></button>
+                                </Link>
                             </div>
                         </div>
                     </div>
