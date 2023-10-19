@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 const Categories = ({ categories }) => {
     const { brand_name, brand_image } = categories;
     return (
@@ -8,7 +9,7 @@ const Categories = ({ categories }) => {
                 <div className="card-body">
                     <h2 className="card-title">{brand_name}</h2>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-outline text-orange-600">Learn More</button>
+                        <Link to='/categoriesProducts'><button className="btn btn-outline text-orange-600">Learn More</button></Link>
                     </div>
                 </div>
             </div>
