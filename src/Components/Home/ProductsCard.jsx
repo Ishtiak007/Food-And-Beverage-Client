@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 const ProductsCard = ({ products }) => {
-    const { name, photo, price, rating, brand, type } = products;
+    const { _id, name, photo, price, rating, brand, type } = products;
     return (
         <div>
             {/* Image,Name,Brand Name, Type,Price,Rating,Details button, Update button */}
-            <div className="relative lg:flex md:flex w-full max-w-[500px] flex-row rounded-xl bg-white bg-clip-border shadow-md">
+            <div className="relative lg:flex md:flex w-full max-w-[500px] flex-row rounded-xl bg-[#F4F3F0] bg-clip-border shadow-md">
                 <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none shrink-0 rounded-md bg-clip-border">
                     <img
                         src={photo}
@@ -24,11 +24,11 @@ const ProductsCard = ({ products }) => {
                         Type : {type}
                     </h4>
                     <div className="mb-4 text-base font-normal">
-                        <span className="text-green-600 font-medium text-lg bg-slate-100 p-1 rounded-2xl">Price : {price}</span> <span className="text-orange-400 font-medium text-base ml-4 p-1 bg-slate-100 rounded-2xl">Rating : {rating}</span>
+                        <span className="text-green-600 font-medium text-lg bg-blue-50 p-[5px] rounded-2xl">Price : {price}</span> <span className="text-orange-400 font-medium text-base ml-4 p-[5px] bg-blue-50 rounded-2xl">Rating : {rating}</span>
                     </div>
                     <div>
-                        <Link><button className="btn btn-outline btn-success m-3">Details</button></Link>
-                        <button className="btn btn-outline btn-warning">Update</button>
+                        <Link to={`/productDetail/${_id}`}><button className="btn btn-outline btn-success m-3">Details</button></Link>
+                        <Link to={`/updateProduct/${_id}`}><button className="btn btn-outline btn-warning">Update</button></Link>
                     </div>
                 </div>
             </div>

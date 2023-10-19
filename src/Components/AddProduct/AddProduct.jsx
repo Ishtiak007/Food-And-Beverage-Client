@@ -39,8 +39,8 @@ const AddProduct = () => {
 
     }
     return (
-        <div>
-            <div className="bg-gradient-to-r from-blue-100 to-blue-400 p-24 rounded-md">
+        <div className="p-4">
+            <div className="shadow-md bg-gradient-to-r from-green-50 to-green-100 p-24 rounded-md">
                 <form onSubmit={handleAddProduct}>
                     {/* name and brand row */}
                     <div className="md:flex mb-8">
@@ -96,7 +96,7 @@ const AddProduct = () => {
                             </label>
                         </div>
                     </div>
-                    <input className="btn w-full bg-gradient-to-r from-orange-600 to-orange-300 text-white" type="submit" value="Add A Product" />
+                    <input className="btn w-full bg-gradient-to-r from-blue-600 to-blue-300 text-white" type="submit" value="Add A Product" />
                 </form>
             </div>
         </div>

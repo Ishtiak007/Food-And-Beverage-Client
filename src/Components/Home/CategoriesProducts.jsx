@@ -4,7 +4,7 @@ import ProductsCard from "./ProductsCard";
 const CategoriesProducts = () => {
     const products = useLoaderData();
     return (
-        <div>
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
             {
                 products.map(products => <ProductsCard key={products._id} products={products}></ProductsCard>)
             }
