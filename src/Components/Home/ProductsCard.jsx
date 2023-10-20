@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 const ProductsCard = ({ data }) => {
     const { _id, name, photo, price, rating, brand, type } = data;
     return (
-        <div>
+        <div className="p-3">
             {/* Image,Name,Brand Name, Type,Price,Rating,Details button, Update button */}
             <div className="relative lg:flex md:flex w-full max-w-[500px] flex-row rounded-xl bg-[#F4F3F0] bg-clip-border shadow-md">
-                <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none shrink-0 rounded-md bg-clip-border">
+                <div className="relative lg:w-2/5 md:w-2/5 m-0 overflow-hidden text-gray-700 bg-white lg:rounded-r-none md:rounded-r-none shrink-0 rounded-md bg-clip-border">
                     <img
                         src={photo}
                         alt="image"

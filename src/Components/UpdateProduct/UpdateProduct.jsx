@@ -45,7 +45,7 @@ const UpdateProduct = () => {
 
     return (
         <div className="p-4">
-            <div className="shadow-md bg-gradient-to-r from-blue-50 to-blue-100 p-24 rounded-md">
+            <div className="shadow-md bg-gradient-to-r from-blue-50 to-blue-100 p-3 rounded-md">
                 <h1 className="text-center my-4 text-lg font-semibold text-gray-500">You Are Updating: Product Name- {name} & Brand- {brand}</h1>
                 <form onSubmit={handleUpdateProduct}>
                     {/* name and brand row */}
@@ -54,7 +54,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text text-gray-400">Name</span>
                             </label>
-                            <label className="input-group">
+                            <label>
                                 <input defaultValue={name} type="text" name="name" placeholder="Product Name" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -62,7 +62,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text text-gray-400">Brand Name</span>
                             </label>
-                            <label className="input-group">
+                            <label>
                                 <input defaultValue={brand} type="text" name="brand" placeholder="Brand Name" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -73,7 +73,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text text-gray-400">Type of product</span>
                             </label>
-                            <label className="input-group">
+                            <label>
                                 <input defaultValue={type} type="text" name="type" placeholder="Type Of Product" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -81,7 +81,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text text-gray-400">Price</span>
                             </label>
-                            <label className="input-group">
+                            <label>
                                 <input defaultValue={price} type="text" name="price" placeholder="Price" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -92,7 +92,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text text-gray-400">Photo URL</span>
                             </label>
-                            <label className="input-group">
+                            <label>
                                 <input defaultValue={photo} type="text" name="photo" placeholder="Photo URL" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -100,7 +100,7 @@ const UpdateProduct = () => {
                             <label className="label">
                                 <span className="label-text text-gray-400">Rating</span>
                             </label>
-                            <label className="input-group">
+                            <label>
                                 <input defaultValue={rating} type="text" name="rating" placeholder="Rating" className="input input-bordered w-full" />
                             </label>
                         </div>

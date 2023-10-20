@@ -20,7 +20,7 @@ const About = () => {
                                     <p>Health foods are nutrient-Dense Foods</p>
                                 </div>
                             </div>
-                            <div className="card w-60 bg-base-100 shadow-xl">
+                            <div className="card w-60 bg-base-100 shadow-xl mt-3">
                                 <div className="card-body">
                                     <IoFastFood className="text-5xl text-orange-300"></IoFastFood>
                                     <h1 className="text-xl font-medium">Fast Food & Braverage</h1>
@@ -28,9 +28,9 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex items-center gap-6 mt-5" >
+                        <div className="md:flex  items-center gap-3 mt-5" >
                             <div><Link><button className="px-5 py-2 bg-red-600 text-white font-semibold rounded-md flex items-center gap-3">About Us <FaArrowRight></FaArrowRight></button></Link></div>
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center gap-4 mt-3">
                                 <div><img className="w-[70px] border-[3px] border-green-500 rounded-full" src="https://i.ibb.co/sRXWn6X/2222.png" alt="" /></div>
                                 <div>
                                     <h2 className="font-semibold text-lg">Ishtiak Ahmed</h2>

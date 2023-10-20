@@ -40,13 +40,13 @@ const AddProduct = () => {
     }
     return (
         <div className="p-4">
-            <div className="shadow-md bg-gradient-to-r from-green-50 to-green-100 p-24 rounded-md">
+            <div className="shadow-md bg-gradient-to-r from-green-50 to-green-100 p-3 rounded-md">
                 <form onSubmit={handleAddProduct}>
                     {/* name and brand row */}
                     <div className="md:flex mb-8">
                         <div className="form-control md:w-1/2">
 
-                            <label className="input-group">
+                            <label>
                                 <input type="text" name="name" placeholder="Product Name" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -61,13 +61,13 @@ const AddProduct = () => {
                     <div className="md:flex mb-8 ">
                         <div className="form-control md:w-1/2">
 
-                            <label className="input-group">
+                            <label>
                                 <input type="text" name="type" placeholder="Type Of Product" className="input input-bordered w-full" />
                             </label>
                         </div>
                         <div className="form-control md:w-1/2 ml-4">
 
-                            <label className="input-group">
+                            <label>
                                 <input type="text" name="price" placeholder="Price" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -76,13 +76,13 @@ const AddProduct = () => {
                     <div className="md:flex mb-8 ">
                         <div className="form-control md:w-1/2">
 
-                            <label className="input-group">
+                            <label>
                                 <input type="text" name="photo" placeholder="Photo URL" className="input input-bordered w-full" />
                             </label>
                         </div>
                         <div className="form-control md:w-1/2 ml-4">
 
-                            <label className="input-group">
+                            <label>
                                 <input type="text" name="rating" placeholder="Rating" className="input input-bordered w-full" />
                             </label>
                         </div>
@@ -91,7 +91,7 @@ const AddProduct = () => {
                     <div className=" mb-8">
                         <div className="form-control w-full">
 
-                            <label className="input-group">
+                            <label>
                                 <input type="text" name="description" placeholder="Short Description" className="input input-bordered w-full" />
                             </label>
                         </div>
