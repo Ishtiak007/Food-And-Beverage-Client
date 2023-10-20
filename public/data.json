@@ -2,237 +2,37 @@
     {
         "id":"1",
         "brand_name": "coca-cola",
-        "brand_image": "https://i.ibb.co/FKRpfYR/maximilian-bruck-4-SKd-Rc-Y13j4-unsplash.jpg",
-        "type": [
-            {
-                "productName": "Fanta",
-                "product1_img": "https://i.ibb.co/XjPFk0N/haithem-ferdi-WSUdiy9cids-unsplash.jpg",
-                "brandName": "Coca-Cola",
-                "price": "2$",
-                "product_type": "Soft-Drinks",
-                "description": "Colorful, fruit-flavored soda, known for its orange variant, bursting with fruity sweetness."
-            },
-            {
-                "productName": "Sprite",
-                "product2_img": "https://i.ibb.co/V9HqRnn/shardar-tarikul-islam-o-UUBh-Ks-Qt-Fo-unsplash.jpg",
-                "brandName": "Coca-Cola",
-                "price": "1$",
-                "product_type": "Soft-Drinks",
-                "description": "Iconic carbonated cola, sweet and fizzy, with a hint of spice and vanilla."
-            },
-            {
-                "productName": "Coca Cola Classic",
-                "product3_img": "https://i.ibb.co/89RBGWB/jonathan-borba-y-ZOf-Nn-I2-PA0-unsplash.jpg",
-                "brandName": "Coca-Cola",
-                "price": "3$",
-                "product_type": "Soft-Drinks",
-                "description": " Creamy and earthy, with sassafras undertones, an American classic with a frothy head."
-            },
-            {
-                "productName": "Cola Soda",
-                "product4_img": "https://i.ibb.co/bQqHrVG/jarritos-mexican-soda-bz-FQPGKSWZE-unsplash.jpg",
-                "brandName": "Coca-Cola",
-                "price": "3$",
-                "product_type": "Soft-Drinks",
-                "description": "Clear, lemon-lime soda, crisp and refreshing, with a zesty, citrusy flavor."
-            }
-        ]
+        "brand_image": "https://i.ibb.co/FKRpfYR/maximilian-bruck-4-SKd-Rc-Y13j4-unsplash.jpg"
 
     },
     {
         "id":"2",
         "brand_name": "mcdonalds",
-        "brand_image": "https://i.ibb.co/V21kt0Z/brett-jordan-zee1ge-Zy6-H0-unsplash.jpg",
-        "type": [
-            {
-                "productName": "Hamburgers",
-                "product1_img": "https://i.ibb.co/3vtDrj5/amirali-mirhashemian-sc5s-TPMr-Vfk-unsplash.jpg",
-                "brandName": "McDonald's",
-                "price": "4$",
-                "product_type": "Junk Food",
-                "description": "Savory meat or plant-based patty, with toppings, in a soft, toasted bun, an American classic."
-            },
-            {
-                "productName": "Big Mac",
-                "product2_img": "https://i.ibb.co/PWg9tXt/ilya-mashkov-qxb-JUr9-Rq-I-unsplash.jpg",
-                "brandName": "McDonald's",
-                "price": "3$",
-                "product_type": "Junk Food",
-                "description": "Crispy potato sticks, salted to perfection, a fast-food favorite and perfect side dish."
-            },
-            {
-                "productName": "McChicken",
-                "product3_img": "https://i.ibb.co/pQpJb25/eiliv-aceron-Dsp-T8-Smoc0k-unsplash.jpg",
-                "brandName": "McDonald's",
-                "price": "6$",
-                "product_type": "Junk Food",
-                "description": "Grilled sausages in a soft bun, often garnished with condiments, a street food classic."
-            },
-            {
-                "productName": "McFlurry",
-                "product4_img": "https://i.ibb.co/TMLTqfW/paras-kapoor-SQ1v-UOx-SIZc-unsplash.jpg",
-                "brandName": "McDonald's",
-                "price": "2$",
-                "product_type": "Junk Food",
-                "description": "Bite-sized, breaded and fried chicken pieces, a popular kids' menu item."
-            }
-        ]
+        "brand_image": "https://i.ibb.co/V21kt0Z/brett-jordan-zee1ge-Zy6-H0-unsplash.jpg"
+        
     },
     {
         "id":"3",
         "brand_name": "starbucks",
-        "brand_image": "https://i.ibb.co/zmp915F/naufal-giffari-0k-Thi-Uv4-Y4s-unsplash.jpg",
-        "type": [
-            {
-                "productName": "Starbucks Drinks",
-                "product1_img": "https://i.ibb.co/FzMrTJ3/kal-visuals-z-MNa-Ldi-Z2-I-unsplash.jpg",
-                "brandName": "Starbucks",
-                "price": "1$",
-                "product_type": "Drinks",
-                "description": "Espresso, steamed milk, caramel syrup, and foam, a sweet and caffeinated delight."
-            },
-            {
-                "productName": "Starbucks Combo",
-                "product2_img": "https://i.ibb.co/m8F3PS2/airiz-Bs2-BRft-Apxg-unsplash.jpg",
-                "brandName": "Starbucks",
-                "price": "3$",
-                "product_type": "Drinks",
-                "description": "Espresso, steamed milk, and vanilla syrup, a creamy, fragrant coffee beverage."
-            },
-            {
-                "productName": "Cold Coffee",
-                "product3_img": "https://i.ibb.co/2Kdw09y/tabitha-turner-F0-Wd4dj-Yv-SA-unsplash.jpg",
-                "brandName": "Starbucks",
-                "price": "3$",
-                "product_type": "Drinks",
-                "description": "Espresso, steamed milk, chocolate, and whipped cream, a rich and indulgent coffee treat."
-            },
-            {
-                "productName": "Dark Roast Coffee",
-                "product4_img": "https://i.ibb.co/kJVw2d7/coffee.jpg",
-                "brandName": "Starbucks",
-                "price": "3$",
-                "product_type": "Drinks",
-                "description": "Black tea, steamed milk, chai spices, and honey, a warm and spiced delight."
-            }
-        ]
+        "brand_image": "https://i.ibb.co/YhR8GcF/engin-akyurt-Nl-Gjqc-PACUw-unsplash.jpg"
+        
     },
     {
         "id":"4",
         "brand_name": "pepsico",
-        "brand_image": "https://i.ibb.co/w7FvMzj/pepsi.jpg",
-        "type": [
-            {
-                "productName": "Pepsi",
-                "product1_img": "https://i.ibb.co/9GgcxJt/nikhil-e-Eumk-Kjg7-Jo-unsplash.jpg",
-                "brandname": "PepsiCo",
-                "price": "1$",
-                "product_type": "Drinks",
-                "description": "Iconic cola, sweet and carbonated, with a hint of caramel and citrus, a classic refreshment."
-            },
-            {
-                "productName": "Lays",
-                "product2_img": "https://i.ibb.co/2yNF84b/olga-kozachenko-SDV7kq7-WFg-I-unsplash.jpg",
-                "brandname": "PepsiCo",
-                "price": "1$",
-                "product_type": "Chips",
-                "description": "Fried dough rings, glazed or filled with sweet toppings, a delightful morning indulgence."
-            },
-            {
-                "productName": "Mountain dew",
-                "product3_img": "https://i.ibb.co/bmgcJb5/anil-xavier-xnc-PCVuh-Xy8-unsplash.jpg",
-                "brandname": "PepsiCo",
-                "price": "1$",
-                "product_type": "Drinks",
-                "description": "Neon green, energizing citrus soda, with a bold and zesty taste."
-            },
-            {
-                "productName": "Pepsi Max",
-                "product4_img": "https://i.ibb.co/42DNfKZ/olena-bohovyk-Elf-JDs4-LAQk-unsplash.jpg",
-                "brandname": "PepsiCo",
-                "price": "1$",
-                "product_type": "Drinks",
-                "description": " Bitter, carbonated mixer, often paired with gin, and featuring quinine's distinctive taste"
-            }
-
-        ]
+        "brand_image": "https://i.ibb.co/sQqh6nV/nikhil-e-Eumk-Kjg7-Jo-unsplash-1.jpg"
+        
     },
     {
         "id":"5",
         "brand_name": "nestle",
-        "brand_image": "https://i.ibb.co/1KxZ2bP/Nestle-logo-PNG6.png",
-        "type": [
-            {
-                "productName": "Nestle Coffee",
-                "product1_img": "https://i.ibb.co/ZN8RqLh/prasann-tank-T5-Acwo-EUp4w-unsplash.jpg",
-                "brandname": "Nestle",
-                "price": "2$",
-                "product_type": "Coffee",
-                "description": "Chilled coffee with optional milk and sweeteners, a refreshing coffee choice."
-            },
-            {
-                "productName": "Kit Kat Icecream",
-                "product2_img": "https://i.ibb.co/kqCGhW8/baiq-daling-0fs-XJL0v-RV8-unsplash.jpg",
-                "brandname": "Nestle",
-                "price": "3$",
-                "product_type": "Icecream",
-                "description": "Decadently rich, dark or milk chocolate flavors, a beloved classic for all ages."
-            },
-            {
-                "productName": "Chocolate",
-                "product3_img": "https://i.ibb.co/1GvdNCQ/denny-muller-m-GP8gy-Gb8z-Y-unsplash.jpg",
-                "brandname": "Nestle",
-                "price": "2$ per one",
-                "product_type": "Chocolate",
-                "description": "Refreshing mint base with chocolate chips, a cool and chocolatey combination."
-            },
-            {
-                "productName": "Corn Flakes",
-                "product4_img": "https://i.ibb.co/0Fzx2Gt/corn.webp",
-                "brandname": "Nestle",
-                "price": "3$",
-                "product_type": "Flakes",
-                "description": "Sweetened with a sugary coating, for a delightful morning treat."
-            }
-        ]
+        "brand_image": "https://i.ibb.co/1fCRd4j/Nestle-Logo-2015-present.jpg"
+        
     },
     {
         "id":"6",
         "brand_name": "kelloggs",
-        "brand_image": "https://i.ibb.co/XjPFk0N/haithem-ferdi-WSUdiy9cids-unsplash.jpg",
-        "type": [
-            {
-                "productName": "Corn Flakes",
-                "product1_img": "https://i.ibb.co/8B32NNQ/haithem-ferdi-2b8-Cf-Jj6e-Oo-unsplash.jpg",
-                "brandname": "kelloggs",
-                "price": "3$",
-                "product_type": "Flakes",
-                "description": "Corn flakes drizzled with honey and mixed with nuts for a sweet and nutty flavor."
-            },
-            {
-                "productName": "Chocos",
-                "product2_img": "https://i.ibb.co/c832LgX/chocos.jpg",
-                "brandname": "kelloggs",
-                "price": "4$",
-                "product_type": "Chocos",
-                "description": "Flavored with the essence of ripe bananas, for a tropical morning experience."
-            },
-            {
-                "productName": "Pops",
-                "product3_img": "https://i.ibb.co/zs60hGT/pos.png",
-                "brandname": "kelloggs",
-                "price": "3$",
-                "product_type": "Pops",
-                "description": "Classic corn flakes with a simple, golden appearance and flavor."
-            },
-            {
-                "productName": "Oats",
-                "product4_img": "https://i.ibb.co/vjstJpM/Kelloggs-oats-289x424.jpg",
-                "brandname": "kelloggs",
-                "price": "3$",
-                "product_type": "Oats",
-                "description": "Suitable for those with dietary restrictions, without gluten but still crispy and delicious."
-            }
-        ]
+        "brand_image": "https://i.ibb.co/rtHxWmS/2560px-Kellogg-s-Logo-svg.png"
+        
     }
 ]

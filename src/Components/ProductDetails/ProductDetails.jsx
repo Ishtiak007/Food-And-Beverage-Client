@@ -1,9 +1,36 @@
 import { Link, useLoaderData } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
+import Swal from "sweetalert2";
 
 const ProductDetails = () => {
     const product = useLoaderData();
     const { name, photo, price, rating, brand, type, description } = product;
+
+    const handleAddToCart = () => {
+        fetch('http://localhost:5000/cartInfo', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(product)
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(data)
+                if (data.insertedId) {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'success',
+                        title: 'Your product is added to My Cart',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                }
+            })
+    }
+
+
+
     return (
         <div>
 
@@ -35,7 +62,7 @@ const ProductDetails = () => {
                                 <p className="lg:py-6">{description}</p>
                                 <div>
                                     <Link>
-                                        <button className="bg-red-500 py-2 px-3 text-white font-bold rounded-2xl flex items-center gap-2">Add to cart <FaShoppingCart></FaShoppingCart></button>
+                                        <button onClick={handleAddToCart} className="bg-red-500 py-2 px-3 text-white font-bold rounded-2xl flex items-center gap-2">Add to cart <FaShoppingCart></FaShoppingCart></button>
                                     </Link>
                                 </div>
                             </div>
