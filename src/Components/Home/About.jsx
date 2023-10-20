@@ -7,12 +7,12 @@ const About = () => {
         <div>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src="https://i.ibb.co/fCy7zz5/chawmin.png" className="max-w-lg" />
+                    <img src="https://i.ibb.co/fCy7zz5/chawmin.png" />
                     <div>
                         <p className="dancing text-xl text-green-500 text-left mt-7">About us and our website</p>
                         <h1 className="text-5xl font-bold">Where Quality Food Meet Excellent Service</h1>
                         <p className="py-6">Its the perfect dining experience where every dish is crafted with fresh, high-quality ingrediants and served by friendly staff who go</p>
-                        <div className="flex gap-4">
+                        <div className="md:flex lg:flex gap-4">
                             <div className="card w-60 bg-base-100 shadow-xl">
                                 <div className="card-body">
                                     <PiHamburgerBold className="text-5xl text-orange-300"></PiHamburgerBold>

@@ -5,7 +5,7 @@ const OrderNow = () => {
         <div>
             <div className="hero min-h-[50vh]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src="https://i.ibb.co/1GVYzmL/drinks.png" className="max-w-md" />
+                    <img src="https://i.ibb.co/1GVYzmL/drinks.png" />
                     <div>
                         <p className="italic text-2xl dancing text-green-500">Drink For Health</p>
                         <h1 className="text-5xl font-bold">Fresh <span className="text-[#DE9190]">Beverage</span></h1>

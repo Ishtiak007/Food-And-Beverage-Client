@@ -6,7 +6,7 @@ const SpecialBeverage = () => {
             <h2 className="dancing text-xl text-green-500 text-center mt-7">30% off for beverage</h2>
             <h1 className="text-center text-3xl font-semibold mb-8">Our Special Beverage</h1>
             <div className="mb-10">
-                <div className="flex justify-center gap-7">
+                <div className="md:flex lg:flex justify-center gap-7">
                     <div className="relative flex flex-col text-gray-700 bg-white shadow-md w-64 rounded-xl bg-clip-border">
                         <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg h-64 rounded-xl bg-clip-border">
                             <img className="hover:scale-125 transition-all" src="https://i.ibb.co/KDQmQdH/victor-rutka-4-Fujjkc-I40g-unsplash.jpg" alt="profile-picture" />
@@ -42,7 +42,7 @@ const SpecialBeverage = () => {
 
 
 
-                <div className="flex justify-center gap-7 mt-5">
+                <div className="md:flex lg:flex justify-center gap-7 mt-5">
                     <div className="relative flex flex-col text-gray-700 bg-white shadow-md w-64 rounded-xl bg-clip-border">
                         <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg h-64 rounded-xl bg-clip-border">
                             <img className="hover:scale-125 transition-all" src="https://i.ibb.co/MkPn25n/abhishek-hajare-kkr-XVKK-jhg-unsplash.jpg" alt="profile-picture" />
@@ -79,7 +79,7 @@ const SpecialBeverage = () => {
 
 
 
-                <div className="flex justify-center gap-7 mt-5">
+                <div className="md:flex lg:flex justify-center gap-7 mt-5">
                     <div className="relative flex flex-col text-gray-700 bg-white shadow-md w-64 rounded-xl bg-clip-border">
                         <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg h-64 rounded-xl bg-clip-border">
                             <img className="hover:scale-125 transition-all" src="https://i.ibb.co/ZmWZMJR/no-revisions-Gcwktmnx-Vu-U-unsplash.jpg" alt="profile-picture" />

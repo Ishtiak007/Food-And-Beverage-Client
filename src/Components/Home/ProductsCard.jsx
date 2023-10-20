@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
-const ProductsCard = ({ products }) => {
-    const { _id, name, photo, price, rating, brand, type } = products;
+const ProductsCard = ({ data }) => {
+    const { _id, name, photo, price, rating, brand, type } = data;
     return (
         <div>
             {/* Image,Name,Brand Name, Type,Price,Rating,Details button, Update button */}
@@ -36,6 +36,6 @@ const ProductsCard = ({ products }) => {
     );
 };
 ProductsCard.propTypes = {
-    products: PropTypes.object
+    data: PropTypes.object
 };
 export default ProductsCard;
