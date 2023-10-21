@@ -34,7 +34,7 @@ const router = createBrowserRouter([
       {
         path: '/myCart',
         element: <PrivateRoute><MyCart></MyCart></PrivateRoute>,
-        loader: () => fetch('http://localhost:5000/cartInfoDelete')
+        loader: () => fetch('https://assignment-server-87sbq5jy6-coadings-projects.vercel.app/cartInfoDelete')
       },
       {
         path: '/login',
@@ -47,17 +47,17 @@ const router = createBrowserRouter([
       {
         path: '/categoriesProducts/:brand_name',
         element: <PrivateRoute><CategoriesProducts></CategoriesProducts></PrivateRoute>,
-        loader: () => fetch('http://localhost:5000/products')
+        loader: () => fetch('https://assignment-server-87sbq5jy6-coadings-projects.vercel.app/products')
       },
       {
         path: '/updateProduct/:id',
         element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
+        loader: ({ params }) => fetch(`https://assignment-server-87sbq5jy6-coadings-projects.vercel.app/products/${params.id}`)
       },
       {
         path: '/productDetail/:id',
         element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
-        loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
+        loader: ({ params }) => fetch(`https://assignment-server-87sbq5jy6-coadings-projects.vercel.app/products/${params.id}`)
       }
     ]
   },

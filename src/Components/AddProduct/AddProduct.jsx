@@ -16,7 +16,7 @@ const AddProduct = () => {
 
 
         // sending data from here
-        fetch('http://localhost:5000/products', {
+        fetch('https://assignment-server-87sbq5jy6-coadings-projects.vercel.app/products', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
