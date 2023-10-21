@@ -5,7 +5,7 @@ import Slider from "../Slider/Slider";
 const CategoriesProducts = () => {
     const products = useLoaderData();
     const { brand_name } = useParams();
-    const product = products.filter(item => item.brand.toLowerCase() === brand_name.toLowerCase())
+    const product = products?.filter(item => item.brand.toLowerCase() === brand_name.toLowerCase())
 
     return (
         <div>

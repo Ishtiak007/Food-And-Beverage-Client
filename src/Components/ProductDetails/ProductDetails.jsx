@@ -8,7 +8,7 @@ const ProductDetails = () => {
 
 
     const handleAddToCart = () => {
-        fetch('https://assignment-server-j3jxrlqtp-coadings-projects.vercel.app/cartInfo', {
+        fetch('https://assignment-server-nyuet8m6h-coadings-projects.vercel.app/cartInfo', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

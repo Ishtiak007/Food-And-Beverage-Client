@@ -16,7 +16,7 @@ const CartCollection = ({ carts, cart, setCarts }) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`https://assignment-server-j3jxrlqtp-coadings-projects.vercel.app/cartInfoDelete/${_id}`, {
+                fetch(`https://assignment-server-nyuet8m6h-coadings-projects.vercel.app/cartInfoDelete/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
@@ -28,7 +28,7 @@ const CartCollection = ({ carts, cart, setCarts }) => {
                                 'Your added cart has been deleted.',
                                 'success'
                             )
-                            const remainingProduct = carts.filter(item => item._id !== _id);
+                            const remainingProduct = carts?.filter(item => item._id !== _id);
                             setCarts(remainingProduct);
 
                         }
