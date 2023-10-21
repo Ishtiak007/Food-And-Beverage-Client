@@ -1,10 +1,9 @@
 import Swal from "sweetalert2";
 import PropTypes from 'prop-types';
-
-const CartCollection = ({ cart, setCarts }) => {
+const CartCollection = ({ carts, cart, setCarts }) => {
     const { _id, name, photo, price, rating, brand, type } = cart;
 
-    const handleDelete = () => {
+    const handleDelete = (_id) => {
         console.log(_id)
         Swal.fire({
             title: 'Are you sure?',
@@ -17,7 +16,7 @@ const CartCollection = ({ cart, setCarts }) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:5000/cartInfo/${_id}`, {
+                fetch(`http://localhost:5000/cartInfoDelete/${_id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
@@ -29,8 +28,9 @@ const CartCollection = ({ cart, setCarts }) => {
                                 'Your added cart has been deleted.',
                                 'success'
                             )
-                            const remainingProduct = cart.filter(item => item._id !== _id);
+                            const remainingProduct = carts.filter(item => item._id !== _id);
                             setCarts(remainingProduct);
+
                         }
                     })
             }
@@ -48,7 +48,7 @@ const CartCollection = ({ cart, setCarts }) => {
                     <p>Brand : {brand}</p>
                     <p>Type : {type}</p>
                     <div className="card-actions justify-end">
-                        <button onClick={handleDelete} className="bg-red-500 px-3 py-2 rounded-2xl text-white font-bold">Delete</button>
+                        <button onClick={() => handleDelete(_id)} className="bg-red-500 px-3 py-2 rounded-2xl text-white font-bold">Delete</button>
                     </div>
                 </div>
             </div>
