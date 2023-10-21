@@ -1,65 +1,18 @@
-// import React, { useRef, useState } from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Marquee from "react-fast-marquee";
 
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import './slider.css';
 
-// import required modules
 import { Keyboard, Pagination, Navigation } from 'swiper/modules';
 const Slider = () => {
     return (
         <div>
-            {/* <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
-                slidesPerView={3}
-                navigation
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
-            >
-                <SwiperSlide>
-                    <div></div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src="https://i.ibb.co/FKRpfYR/maximilian-bruck-4-SKd-Rc-Y13j4-unsplash.jpg" alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src="https://i.ibb.co/V21kt0Z/brett-jordan-zee1ge-Zy6-H0-unsplash.jpg" alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src="https://i.ibb.co/YhR8GcF/engin-akyurt-Nl-Gjqc-PACUw-unsplash.jpg" alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src="https://i.ibb.co/sQqh6nV/nikhil-e-Eumk-Kjg7-Jo-unsplash-1.jpg" alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src="https://i.ibb.co/1fCRd4j/Nestle-Logo-2015-present.jpg" alt="" />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div>
-                        <img src="https://i.ibb.co/rtHxWmS/2560px-Kellogg-s-Logo-svg.png" alt="" />
-                    </div>
-                </SwiperSlide>
-            </Swiper> */}
+
             <Swiper
                 loop={true}
                 autoplay={{

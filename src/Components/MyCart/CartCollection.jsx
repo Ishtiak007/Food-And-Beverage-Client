@@ -1,9 +1,8 @@
+import Swal from "sweetalert2";
 import PropTypes from 'prop-types';
-import Swal from 'sweetalert2';
+
 const CartCollection = ({ cart, setCarts }) => {
     const { _id, name, photo, price, rating, brand, type } = cart;
-
-
 
     const handleDelete = () => {
         console.log(_id)
@@ -37,6 +36,7 @@ const CartCollection = ({ cart, setCarts }) => {
             }
         })
     }
+
     return (
         <div>
             <div className="card card-compact w-72 bg-base-100 shadow-xl">

@@ -6,6 +6,7 @@ const ProductDetails = () => {
     const product = useLoaderData();
     const { name, photo, price, rating, brand, type, description } = product;
 
+
     const handleAddToCart = () => {
         fetch('http://localhost:5000/cartInfo', {
             method: 'POST',
@@ -28,9 +29,6 @@ const ProductDetails = () => {
                 }
             })
     }
-
-
-
     return (
         <div>
 
