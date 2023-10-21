@@ -46,20 +46,20 @@ const Register = () => {
             })
     }
     return (
-        <div className="mt-10 hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/zWMBGzX/amirali-mirhashemian-jh5-Xy-K4-Rr3-Y-unsplash.jpg)' }}>
+        <div className="mt-10 hero lg:min-h-screen bg-cover" style={{ backgroundImage: 'url(https://i.ibb.co/zWMBGzX/amirali-mirhashemian-jh5-Xy-K4-Rr3-Y-unsplash.jpg)' }}>
             <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
+            <div className=" text-center text-neutral-content">
                 <div>
 
                     <div className="hero">
-                        <div className="hero-content flex-col lg:flex-row">
+                        <div className="hero-content lg:flex flex-col">
                             <div className="text-center lg:text-left">
-                                <h1 className="text-5xl dancing text-green-400">Come on..Join with us</h1>
-                                <h1 className="text-5xl font-bold">Register <span className="text-orange-300">Now!</span></h1>
+                                <h1 className="lg:text-5xl dancing text-green-400">Come on..Join with us</h1>
+                                <h1 className="lg:text-5xl font-bold">Register <span className="text-orange-300">Now!</span></h1>
                                 <FaArrowAltCircleRight className="text-7xl"></FaArrowAltCircleRight>
                             </div>
-                            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                                <form onSubmit={handleRegister} className="card-body flex-1">
+                            <div className="card flex-shrink-0 w-full max-w-[280px] shadow-2xl bg-base-100">
+                                <form onSubmit={handleRegister} className="card-body lg:flex-1">
                                     <div className="form-control">
 
                                         <input type="text" name="name" placeholder="Enter Your Name" className="input input-bordered text-gray-700" required />

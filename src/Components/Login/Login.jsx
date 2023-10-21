@@ -45,10 +45,10 @@ const Login = () => {
     return (
         <div>
             <div className="mt-5">
-                <div className="md:h-[100vh] flex justify-center items-center">
+                <div className="lg:h-[100vh] flex justify-center items-center">
                     <div className="hero min-h-screen ">
                         <div className="hero-content flex-col">
-                            <div className="card flex-shrink-0 w-full md:max-w-xl shadow-2xl bg-base-100">
+                            <div className="card flex-shrink-0 w-full max-w-[280px] shadow-2xl bg-base-100">
 
                                 <form onSubmit={handleLogin} className="card-body">
                                     <div>
